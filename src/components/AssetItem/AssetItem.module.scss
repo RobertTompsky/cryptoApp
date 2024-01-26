@@ -1,0 +1,15 @@
+.assetItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-size: 20px
+    }
+    
+    .assetItem_name {
+        @extend .assetItem;
+        gap: 20px;
+    }
+}

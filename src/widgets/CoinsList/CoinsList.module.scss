@@ -1,0 +1,17 @@
+.coinslist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .coinslist_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .coinslist_hr {
+        width: 100%;
+        margin-top: -20px;
+    }
+}

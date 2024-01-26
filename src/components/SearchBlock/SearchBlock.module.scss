@@ -1,0 +1,9 @@
+.searchBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    input {
+        width: 40%;
+    }
+}

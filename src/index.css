@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+input,
+select {
+    padding: 16px 20px;
+    font-size: 20px;
+    border-radius: 14px;
+    background-color: #1a1a1a;
+    outline: #1a1a1a;
+    color: white;
+    border: none;
+}
+
+button {
+    background-color: #00cc00;
+    /* Зеленый цвет фона кнопки */
+    color: black;
+    /* Цвет текста на кнопке */
+    padding: 10px 20px;
+    /* Внутренние отступы кнопки (верх/низ, лево/право) */
+    border: none;
+    /* Убираем границу кнопки */
+    border-radius: 4px;
+    /* Закругление углов кнопки */
+    font-size: 16px;
+    font-weight: 700;
+    /* Размер текста на кнопке */
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8
+}
+
